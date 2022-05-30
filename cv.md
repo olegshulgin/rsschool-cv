@@ -1,10 +1,10 @@
 # Oleg Shulgin
 
 ## Contacts
-* Phone: +7 903 7707938
-* Telegram: Oleg_Sh1
-* Email: oleg.shulgin.email@gmail.com
-* Github: [olegshulgin](http://github.com/olegshulgin)
+* **Phone:** +7 903 7707938
+* **Telegram:** Oleg_Sh1
+* **Email:** oleg.shulgin.email@gmail.com
+* **Github:** [olegshulgin](http://github.com/olegshulgin)
 
 ## About me
 I constantly take various online courses and learn something new. I'm currently interested in frontend, and hope that the knowledge and practice gained will help me solve many problems.
@@ -42,12 +42,13 @@ I constantly take various online courses and learn something new. I'm currently 
       return result;
     }
 
-# Education
+## Education
 University: RTU MIREA, Applied Informatics
 Courses: 
   * [The Web Developer Bootcamp](https://www.udemy.com/course/the-web-developer-bootcamp/)
   * [ItGid. Курсы Лущенко Александра](https://itgid.info/) 
-  * [The Complete 2022 Web Development Bootcamp]([https://htmlacademy.ru/](https://www.udemy.com/course/the-complete-web-development-bootcamp/)) 
+  * [The Complete 2022 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/) 
 
 
-## Experience
+## Languages
+English - **B1**
