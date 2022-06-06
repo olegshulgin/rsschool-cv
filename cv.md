@@ -49,6 +49,8 @@ University: RTU MIREA, Applied Informatics
 Courses: 
   * [The Web Developer Bootcamp](https://www.udemy.com/course/the-web-developer-bootcamp/)
   * [ItGid. Курсы Лущенко Александра](https://itgid.info/) 
-  * [The Complete 2022 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-
+  * [The Complete 2022 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/) 
 
-development-bootcamp/) 
+
+## Languages
+English - **B1**
