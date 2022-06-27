@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Travel</title>
     <link
-      href="https://fonts.googleapis.com/css?family=Red+Hat+Text:500|Aleo:400,700|Magra:700"
+      href="https://fonts.googleapis.com/css?family=Red+Hat+Text:500%7CAleo:400,700%7CMagra:700"
       rel="stylesheet"
       type="text/css"
     />
@@ -27,19 +27,22 @@
               />
             </a>
           </div>
+          <div class="header__title">
+            <p class="header__title-text">Travel Portal</p>
+          </div>
           <nav class="header__nav">
             <ul class="header__list">
               <li class="header__item">
-                <a href="#" class="header__link">How It Works</a>
+                <a href="#preview" class="header__link">How It Works</a>
               </li>
               <li class="header__item">
-                <a href="#" class="header__link">Plan Your Trip</a>
+                <a href="#steps" class="header__link">Plan Your Trip</a>
               </li>
               <li class="header__item">
-                <a href="#" class="header__link">Destinations</a>
+                <a href="#destinations" class="header__link">Destinations</a>
               </li>
               <li class="header__item">
-                <a href="#" class="header__link">Travel Stories</a>
+                <a href="#stories" class="header__link">Travel Stories</a>
               </li>
             </ul>
           </nav>
@@ -56,7 +59,7 @@
     <!--Header end-->
     <main class="main">
       <!--Preview start-->
-      <section class="preview">
+      <section class="preview" id="preview">
         <div class="wrapper">
           <h1 class="preview__title">Explore the beauty of the World</h1>
           <p class="preview__subtitle">
@@ -78,7 +81,7 @@
       <!--Preview end-->
 
       <!--Steps start-->
-      <section class="steps">
+      <section class="steps" id="steps">
         <div class="steps__wrap">
           <h2 class="steps__title">3 STEPS TO THE PERFECT TRIP</h2>
           <div class="steps__cards">
@@ -119,30 +122,40 @@
       <!--Steps end-->
 
       <!--Destinations start-->
-      <section class="destinations">
+      <section class="destinations" id="destinations">
         <div class="destinations__wrap">
           <h2 class="destinations__title">POPULAR DESTINATIONS</h2>
           <!--<div class="destinations__images">
             <div class="destinations__image"></div>
           </div>-->
-          <input checked type="radio" name="respond" id="desktop" />
-          <article id="destinations__slider">
+          <!--<input checked type="radio" name="respond" id="desktop" />-->
+          <div id="destinations__slider">
+            <input type="radio" name="destinations__slider" id="switch1" />
             <input
               checked
               type="radio"
               name="destinations__slider"
-              id="switch1"
+              id="switch2"
             />
-            <input type="radio" name="destinations__slider" id="switch2" />
             <input type="radio" name="destinations__slider" id="switch3" />
             <div class="destinations__slides">
               <div class="destinations__overflow">
                 <div class="destinations__image">
-                  <article>
-                    <img src="./img/destination-1.jpg" alt="" />
-                    <img src="./img/destination-2.jpg" alt="" />
-                    <img src="./img/destination-3.jpg" alt="" />
-                  </article>
+                  <img
+                    src="./img/destination-1.jpg"
+                    alt=""
+                    class="destination__image"
+                  />
+                  <img
+                    src="./img/destination-2.jpg"
+                    alt=""
+                    class="destination__image"
+                  />
+                  <img
+                    src="./img/destination-3.jpg"
+                    alt=""
+                    class="destination__image"
+                  />
                 </div>
               </div>
             </div>
@@ -156,13 +169,18 @@
               <label for="switch2"></label>
               <label for="switch3"></label>
             </div>
-          </article>
+          </div>
+          <form class="destinations-form">
+            <button type="submit" class="destinations-form__submit">
+              See More
+            </button>
+          </form>
         </div>
       </section>
       <!--Destinations end-->
 
       <!--Stories start-->
-      <section class="stories">
+      <section class="stories" id="stories">
         <div class="stories__wrap">
           <h2 class="stories__title">TRAVEL STORIES</h2>
           <div class="stories__rows">
@@ -278,5 +296,30 @@
       </section>
       <!--Popular destinations end-->
     </main>
+    <!--Footer start-->
+    <footer class="footer">
+      <div class="footer__text">All Rights Reserved © Travel Portal</div>
+      <ul class="footer__icons-list">
+        <li class="footer__icons-item">
+          <a href="https://github.com/olegshulgin" class="footer__icons-link">
+            <img
+              src="./img/svg/github.svg"
+              alt="Github"
+              class="footer__icons-pic"
+            />
+          </a>
+        </li>
+        <li class="footer__icons-item">
+          <a href="https://rs.school/js-stage0/" class="footer__icons-link">
+            <img
+              src="./img/svg/rs-school.svg"
+              alt="RS School"
+              class="footer__icons-pic"
+            />
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <script type="text/javascript" src="index.js"></script>
   </body>
 </html>
